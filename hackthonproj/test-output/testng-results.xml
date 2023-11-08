@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-28T10:07:47Z" name="Default suite" finished-at="2023-07-28T10:08:59Z" duration-ms="72601">
+    <groups>
+    </groups>
+    <test started-at="2023-07-28T10:07:47Z" name="Default test" finished-at="2023-07-28T10:08:59Z" duration-ms="72601">
+      <class name="hackthonproj_setup.hackthonproj_setUp">
+        <test-method is-config="true" signature="lauch()[pri:0, instance:hackthonproj_setup.hackthonproj_setUp@5fe1ce85]" started-at="2023-07-28T15:37:47Z" name="lauch" finished-at="2023-07-28T15:37:53Z" duration-ms="5994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauch -->
+        <test-method signature="boofshelves()[pri:1, instance:hackthonproj_setup.hackthonproj_setUp@5fe1ce85]" started-at="2023-07-28T15:37:53Z" name="boofshelves" finished-at="2023-07-28T15:38:22Z" duration-ms="29103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boofshelves -->
+        <test-method signature="beingAtHome()[pri:2, instance:hackthonproj_setup.hackthonproj_setUp@5fe1ce85]" started-at="2023-07-28T15:38:22Z" name="beingAtHome" finished-at="2023-07-28T15:38:33Z" duration-ms="11289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beingAtHome -->
+        <test-method signature="giftcards()[pri:3, instance:hackthonproj_setup.hackthonproj_setUp@5fe1ce85]" started-at="2023-07-28T15:38:33Z" name="giftcards" finished-at="2023-07-28T15:38:47Z" duration-ms="13924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftcards -->
+        <test-method signature="details([Ljava.lang.String;)[pri:4, instance:hackthonproj_setup.hackthonproj_setUp@5fe1ce85]" started-at="2023-07-28T15:38:47Z" name="details" data-provider="userdetails" finished-at="2023-07-28T15:38:59Z" duration-ms="11630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@73c48264]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- details -->
+        <test-method is-config="true" signature="addReport()[pri:0, instance:hackthonproj_setup.hackthonproj_setUp@5fe1ce85]" started-at="2023-07-28T15:38:59Z" name="addReport" finished-at="2023-07-28T15:38:59Z" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReport -->
+      </class> <!-- hackthonproj_setup.hackthonproj_setUp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
