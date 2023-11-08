@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-17T12:21:29Z" name="Default suite" finished-at="2023-07-17T12:25:24Z" duration-ms="235321">
+    <groups>
+    </groups>
+    <test started-at="2023-07-17T12:21:29Z" name="Default test" finished-at="2023-07-17T12:25:24Z" duration-ms="235321">
+      <class name="TimeSheetSetup.TimeSheetSetUp">
+        <test-method is-config="true" signature="launch()[pri:0, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:51:29Z" name="launch" finished-at="2023-07-17T17:51:33Z" duration-ms="3555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="navigationToWebsite()[pri:1, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:51:33Z" name="navigationToWebsite" finished-at="2023-07-17T17:51:35Z" duration-ms="2289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationToWebsite -->
+        <test-method signature="details()[pri:2, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:51:35Z" name="details" finished-at="2023-07-17T17:52:22Z" duration-ms="47312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- details -->
+        <test-method signature="OneC()[pri:3, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:52:22Z" name="OneC" finished-at="2023-07-17T17:52:41Z" duration-ms="18711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OneC -->
+        <test-method signature="timeSheetNavigation()[pri:4, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:52:41Z" name="timeSheetNavigation" finished-at="2023-07-17T17:52:52Z" duration-ms="10709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeSheetNavigation -->
+        <test-method signature="timesheet()[pri:5, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:52:52Z" name="timesheet" finished-at="2023-07-17T17:53:13Z" duration-ms="20985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timesheet -->
+        <test-method signature="searchDropDown()[pri:6, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:53:13Z" name="searchDropDown" finished-at="2023-07-17T17:53:17Z" duration-ms="4145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDropDown -->
+        <test-method signature="Status_Approved()[pri:7, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:53:17Z" name="Status_Approved" finished-at="2023-07-17T17:53:47Z" duration-ms="29844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Status_Approved -->
+        <test-method signature="Status_Pending()[pri:8, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:53:47Z" name="Status_Pending" finished-at="2023-07-17T17:54:16Z" duration-ms="29334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Status_Pending -->
+        <test-method signature="Status_Overdue()[pri:9, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:54:16Z" name="Status_Overdue" finished-at="2023-07-17T17:54:25Z" duration-ms="9452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Status_Overdue -->
+        <test-method signature="Status_PartialApprove()[pri:10, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:54:25Z" name="Status_PartialApprove" finished-at="2023-07-17T17:54:35Z" duration-ms="9323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Status_PartialApprove -->
+        <test-method signature="Status_Saved()[pri:11, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:54:35Z" name="Status_Saved" finished-at="2023-07-17T17:54:44Z" duration-ms="9391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Status_Saved -->
+        <test-method signature="Status_Revision()[pri:12, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:54:44Z" name="Status_Revision" finished-at="2023-07-17T17:54:54Z" duration-ms="9391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Status_Revision -->
+        <test-method signature="Status_submitForApprove()[pri:13, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:54:54Z" name="Status_submitForApprove" finished-at="2023-07-17T17:55:23Z" duration-ms="29315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Status_submitForApprove -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:TimeSheetSetup.TimeSheetSetUp@6e35bc3d]" started-at="2023-07-17T17:55:23Z" name="finish" finished-at="2023-07-17T17:55:24Z" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- TimeSheetSetup.TimeSheetSetUp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

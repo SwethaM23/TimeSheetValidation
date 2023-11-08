@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\2269363\AppData\Local\Temp\24\testng-eclipse-2036567909\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TimeSheetSetup.TimeSheetSetUp" class="method navigator-link" hash-for-method="OneC">OneC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TimeSheetSetup.TimeSheetSetUp" class="method navigator-link" hash-for-method="Status_Approved">Status_Approved</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TimeSheetSetup.TimeSheetSetUp" class="method navigator-link" hash-for-method="Status_Overdue">Status_Overdue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TimeSheetSetup.TimeSheetSetUp" class="method navigator-link" hash-for-method="Status_PartialApprove">Status_PartialApprove</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TimeSheetSetup.TimeSheetSetUp" class="method navigator-link" hash-for-method="Status_Pending">Status_Pending</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TimeSheetSetup.TimeSheetSetUp" class="method navigator-link" hash-for-method="Status_Revision">Status_Revision</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TimeSheetSetup.TimeSheetSetUp" class="method navigator-link" hash-for-method="Status_Saved">Status_Saved</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TimeSheetSetup.TimeSheetSetUp" class="method navigator-link" hash-for-method="Status_submitForApprove">Status_submitForApprove</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TimeSheetSetup.TimeSheetSetUp" class="method navigator-link" hash-for-method="details">details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TimeSheetSetup.TimeSheetSetUp" class="method navigator-link" hash-for-method="navigationToWebsite">navigationToWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TimeSheetSetup.TimeSheetSetUp" class="method navigator-link" hash-for-method="searchDropDown">searchDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TimeSheetSetup.TimeSheetSetUp" class="method navigator-link" hash-for-method="timeSheetNavigation">timeSheetNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TimeSheetSetup.TimeSheetSetUp" class="method navigator-link" hash-for-method="timesheet">timesheet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TimeSheetSetup.TimeSheetSetUp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OneC">
+                  </a> <!-- OneC -->
+                  <span class="method-name">OneC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Status_Approved">
+                  </a> <!-- Status_Approved -->
+                  <span class="method-name">Status_Approved</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Status_Overdue">
+                  </a> <!-- Status_Overdue -->
+                  <span class="method-name">Status_Overdue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Status_PartialApprove">
+                  </a> <!-- Status_PartialApprove -->
+                  <span class="method-name">Status_PartialApprove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Status_Pending">
+                  </a> <!-- Status_Pending -->
+                  <span class="method-name">Status_Pending</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Status_Revision">
+                  </a> <!-- Status_Revision -->
+                  <span class="method-name">Status_Revision</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Status_Saved">
+                  </a> <!-- Status_Saved -->
+                  <span class="method-name">Status_Saved</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Status_submitForApprove">
+                  </a> <!-- Status_submitForApprove -->
+                  <span class="method-name">Status_submitForApprove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="details">
+                  </a> <!-- details -->
+                  <span class="method-name">details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationToWebsite">
+                  </a> <!-- navigationToWebsite -->
+                  <span class="method-name">navigationToWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchDropDown">
+                  </a> <!-- searchDropDown -->
+                  <span class="method-name">searchDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="timeSheetNavigation">
+                  </a> <!-- timeSheetNavigation -->
+                  <span class="method-name">timeSheetNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="timesheet">
+                  </a> <!-- timesheet -->
+                  <span class="method-name">timesheet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2269363\AppData\Local\Temp\24\testng-eclipse-2036567909\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TimeSheetSetup.TimeSheetSetUp&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'details')
+data.setCell(0, 2, 'TimeSheetSetup.TimeSheetSetUp')
+data.setCell(0, 3, 47312);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Status_Approved')
+data.setCell(1, 2, 'TimeSheetSetup.TimeSheetSetUp')
+data.setCell(1, 3, 29844);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Status_Pending')
+data.setCell(2, 2, 'TimeSheetSetup.TimeSheetSetUp')
+data.setCell(2, 3, 29334);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Status_submitForApprove')
+data.setCell(3, 2, 'TimeSheetSetup.TimeSheetSetUp')
+data.setCell(3, 3, 29315);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'timesheet')
+data.setCell(4, 2, 'TimeSheetSetup.TimeSheetSetUp')
+data.setCell(4, 3, 20985);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'OneC')
+data.setCell(5, 2, 'TimeSheetSetup.TimeSheetSetUp')
+data.setCell(5, 3, 18711);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'timeSheetNavigation')
+data.setCell(6, 2, 'TimeSheetSetup.TimeSheetSetUp')
+data.setCell(6, 3, 10709);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Status_Overdue')
+data.setCell(7, 2, 'TimeSheetSetup.TimeSheetSetUp')
+data.setCell(7, 3, 9452);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Status_Saved')
+data.setCell(8, 2, 'TimeSheetSetup.TimeSheetSetUp')
+data.setCell(8, 3, 9391);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Status_Revision')
+data.setCell(9, 2, 'TimeSheetSetup.TimeSheetSetUp')
+data.setCell(9, 3, 9391);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Status_PartialApprove')
+data.setCell(10, 2, 'TimeSheetSetup.TimeSheetSetUp')
+data.setCell(10, 3, 9323);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'searchDropDown')
+data.setCell(11, 2, 'TimeSheetSetup.TimeSheetSetUp')
+data.setCell(11, 3, 4145);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'navigationToWebsite')
+data.setCell(12, 2, 'TimeSheetSetup.TimeSheetSetUp')
+data.setCell(12, 3, 2289);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TimeSheetSetup.TimeSheetSetUp</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">navigationToWebsite</span>
+                <span class="method-start">3572 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">details</span>
+                <span class="method-start">5866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OneC</span>
+                <span class="method-start">53180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">timeSheetNavigation</span>
+                <span class="method-start">71893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">timesheet</span>
+                <span class="method-start">82604 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchDropDown</span>
+                <span class="method-start">103590 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Status_Approved</span>
+                <span class="method-start">107736 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Status_Pending</span>
+                <span class="method-start">137581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Status_Overdue</span>
+                <span class="method-start">166916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Status_PartialApprove</span>
+                <span class="method-start">176369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Status_Saved</span>
+                <span class="method-start">185696 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Status_Revision</span>
+                <span class="method-start">195089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Status_submitForApprove</span>
+                <span class="method-start">204482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">finish</span>
+                <span class="method-start">233798 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

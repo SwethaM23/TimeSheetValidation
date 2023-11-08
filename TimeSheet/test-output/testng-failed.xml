@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TimeSheetSetup.TimeSheetSetUp">
+        <methods>
+          <include name="Status_Approved"/>
+          <include name="Status_PartialApprove"/>
+          <include name="launch"/>
+          <include name="searchDropDown"/>
+          <include name="timeSheetNavigation"/>
+          <include name="Status_Overdue"/>
+          <include name="timesheet"/>
+          <include name="Status_Revision"/>
+          <include name="Status_Pending"/>
+          <include name="details"/>
+          <include name="Status_Saved"/>
+          <include name="Status_submitForApprove"/>
+          <include name="finish"/>
+          <include name="OneC"/>
+        </methods>
+      </class> <!-- TimeSheetSetup.TimeSheetSetUp -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,1 @@
+Select e.EmployeeID,e.Employee_FirstName,e.Employee_LastName, ed.age,ed.dob,ed.doj  from Employee e Join Employee_Details ed on e.EmployeeID=ed.employeeId;
